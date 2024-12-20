@@ -5,7 +5,7 @@ from tensorflow.keras.models import load_model
 from PIL import Image
 
 # Load model yang sudah dilatih
-model = load_model(r'd:\Matakuliah Semester 5\Pembelajaran Mesin dan Pembelajaran Mendalam\UAS\Googlenet_A_Numpy_RAFI\gugelnet.h5')
+model = load_model(r'BestModel_GoogleNet_Numpy.h5')
 
 # Nama kelas yang sesuai dengan 3 jenis kacang
 class_names = ['Kacang Tanah', 'Kacang Mete', 'Kacang Almond']
